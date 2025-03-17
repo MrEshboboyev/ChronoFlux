@@ -5,7 +5,4 @@
         <EnableNETAnalyzers>true</EnableNETAnalyzers>
         <AnalysisLevel>latest</AnalysisLevel>
     </PropertyGroup>
-    <ItemGroup>
-        <PackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.14.2-alpha" PrivateAssets="All"/>
-    </ItemGroup>
 </Project>
