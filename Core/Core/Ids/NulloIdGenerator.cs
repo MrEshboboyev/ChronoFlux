@@ -4,7 +4,7 @@
 /// <summary>
 /// A simple implementation of <see cref="IIdGenerator"/> that returns a new GUID.
 /// </summary>
-public class NullIdGenerator : IIdGenerator
+public class NulloIdGenerator : IIdGenerator
 {
     /// <summary>
     /// Generates a new unique identifier using <see cref="Guid.NewGuid"/>.
