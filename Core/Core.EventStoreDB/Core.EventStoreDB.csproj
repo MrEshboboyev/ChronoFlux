@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="$(MSBuildProjectDirectory)/../../Core.Build.props" />
+
+	<ItemGroup>
+		<PackageReference Include="EventStore.Client.Grpc.Streams" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" />
+		<PackageReference Include="Newtonsoft.Json" />
+		<PackageReference Include="Npgsql" />
+		<PackageReference Include="Open.ChannelExtensions" />
+		<PackageReference Include="System.Linq.Async" ExcludeAssets="All" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Core.Serialization\Core.Serialization.csproj" />
+		<ProjectReference Include="..\Core\Core.csproj" />
+	</ItemGroup>
+
+</Project>
