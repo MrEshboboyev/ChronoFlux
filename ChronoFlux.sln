@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Scheduling", "Core\Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.EventStoreDB", "Core\Core.EventStoreDB\Core.EventStoreDB.csproj", "{F5E67B17-7A35-4D47-8375-20ECDB9F332C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Kafka", "Core\Core.Kafka\Core.Kafka.csproj", "{128EDA3E-BF4C-45F1-90F0-D363D7B81803}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{F5E67B17-7A35-4D47-8375-20ECDB9F332C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5E67B17-7A35-4D47-8375-20ECDB9F332C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5E67B17-7A35-4D47-8375-20ECDB9F332C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128EDA3E-BF4C-45F1-90F0-D363D7B81803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128EDA3E-BF4C-45F1-90F0-D363D7B81803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128EDA3E-BF4C-45F1-90F0-D363D7B81803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128EDA3E-BF4C-45F1-90F0-D363D7B81803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{4F3650E5-3647-4403-A285-3ED6F6EF6E69} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
 		{C4A5DE99-A081-4EF4-AE69-2D897E45EF0B} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
 		{F5E67B17-7A35-4D47-8375-20ECDB9F332C} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
+		{128EDA3E-BF4C-45F1-90F0-D363D7B81803} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}

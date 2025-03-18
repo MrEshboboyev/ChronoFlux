@@ -22,6 +22,9 @@
         <PackageReference Include="Polly" />
         <PackageReference Include="Scrutor" />
     </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Core.Serialization\Core.Serialization.csproj" />
+    </ItemGroup>
 
     <Import Project="$(MSBuildProjectDirectory)/../../Core.Build.props" />
 </Project>
