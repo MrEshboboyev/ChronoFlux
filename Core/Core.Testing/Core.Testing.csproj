@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+	  <PackageReference Include="Bogus" />
+	  <PackageReference Include="FluentAssertions" />
+	  <PackageReference Include="GitHubActionsTestLogger">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
+	  <PackageReference Include="Microsoft.AspNetCore.TestHost" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration.Json" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+	  <PackageReference Include="Newtonsoft.Json" />
+	  <PackageReference Include="Npgsql" />
+	  <PackageReference Include="Ogooreck" />
+	  <PackageReference Include="Open.ChannelExtensions" />
+	  <PackageReference Include="Testcontainers.PostgreSql" />
+	  <PackageReference Include="xunit" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Core\Core.csproj" />
+	</ItemGroup>
+
+	<Import Project="$(MSBuildProjectDirectory)/../../Core.Build.props" />
+
+</Project>

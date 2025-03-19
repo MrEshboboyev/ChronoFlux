@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.WebApi", "Core\Core.We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerUi.Aspire.Hosting", "Core\SwaggerUi.Aspire.Hosting\SwaggerUi.Aspire.Hosting.csproj", "{793FF648-61E2-4C5B-8C25-2A47C4FFDBFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Testing", "Core\Core.Testing\Core.Testing.csproj", "{EF70D409-6F82-44AE-B30F-7FFA1CE0BEE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{793FF648-61E2-4C5B-8C25-2A47C4FFDBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{793FF648-61E2-4C5B-8C25-2A47C4FFDBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{793FF648-61E2-4C5B-8C25-2A47C4FFDBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF70D409-6F82-44AE-B30F-7FFA1CE0BEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF70D409-6F82-44AE-B30F-7FFA1CE0BEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF70D409-6F82-44AE-B30F-7FFA1CE0BEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF70D409-6F82-44AE-B30F-7FFA1CE0BEE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{1759C1DF-248F-0900-B0AC-A648D7DA814A} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
 		{9B9BDB95-BCB1-4C8E-8FC0-B2A82B6D87AC} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
 		{793FF648-61E2-4C5B-8C25-2A47C4FFDBFD} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
+		{EF70D409-6F82-44AE-B30F-7FFA1CE0BEE8} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}
