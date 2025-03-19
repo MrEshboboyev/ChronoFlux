@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerUi.Aspire.Hosting", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Testing", "Core\Core.Testing\Core.Testing.csproj", "{EF70D409-6F82-44AE-B30F-7FFA1CE0BEE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.EntityFramework.Tests", "Core\Core.EntityFramework.Tests\Core.EntityFramework.Tests.csproj", "{D4CE7AA8-D7FF-475B-B287-264565D5044D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Tests", "Core\Core.Tests\Core.Tests.csproj", "{42EC9941-0FFB-4C78-93A2-8E63996DCA7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +87,14 @@ Global
 		{EF70D409-6F82-44AE-B30F-7FFA1CE0BEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF70D409-6F82-44AE-B30F-7FFA1CE0BEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF70D409-6F82-44AE-B30F-7FFA1CE0BEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4CE7AA8-D7FF-475B-B287-264565D5044D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CE7AA8-D7FF-475B-B287-264565D5044D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CE7AA8-D7FF-475B-B287-264565D5044D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CE7AA8-D7FF-475B-B287-264565D5044D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42EC9941-0FFB-4C78-93A2-8E63996DCA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EC9941-0FFB-4C78-93A2-8E63996DCA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EC9941-0FFB-4C78-93A2-8E63996DCA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EC9941-0FFB-4C78-93A2-8E63996DCA7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +111,8 @@ Global
 		{9B9BDB95-BCB1-4C8E-8FC0-B2A82B6D87AC} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
 		{793FF648-61E2-4C5B-8C25-2A47C4FFDBFD} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
 		{EF70D409-6F82-44AE-B30F-7FFA1CE0BEE8} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
+		{D4CE7AA8-D7FF-475B-B287-264565D5044D} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
+		{42EC9941-0FFB-4C78-93A2-8E63996DCA7F} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}
