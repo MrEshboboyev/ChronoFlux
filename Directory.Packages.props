@@ -7,6 +7,8 @@
   <ItemGroup>
     <PackageVersion Include="Confluent.Kafka" Version="2.8.0" />
     <PackageVersion Include="EventStore.Client.Grpc.Streams" Version="23.3.8" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="10.0.0-preview.2.25163.8" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.0-preview.2.25163.8" />
     <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.0-preview.1.25080.5" />
     <PackageVersion Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.0-preview.1.25080.5" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0-preview.1.25080.5" />
@@ -18,6 +20,7 @@
     <PackageVersion Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.14.2-alpha" />
     <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageVersion Include="Npgsql" Version="9.0.3" />
+    <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0-preview.1" />
     <PackageVersion Include="Open.ChannelExtensions" Version="9.0.0" />
     <PackageVersion Include="OpenTelemetry.Exporter.Console" Version="1.11.2" />
     <PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.11.2" />

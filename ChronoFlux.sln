@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.EventStoreDB", "Core\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Kafka", "Core\Core.Kafka\Core.Kafka.csproj", "{128EDA3E-BF4C-45F1-90F0-D363D7B81803}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.EntityFramework", "Core\Core.EntityFramework\Core.EntityFramework.csproj", "{64D202DE-09F4-4A39-BB2C-9BDEBF07CEAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{128EDA3E-BF4C-45F1-90F0-D363D7B81803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{128EDA3E-BF4C-45F1-90F0-D363D7B81803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{128EDA3E-BF4C-45F1-90F0-D363D7B81803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D202DE-09F4-4A39-BB2C-9BDEBF07CEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D202DE-09F4-4A39-BB2C-9BDEBF07CEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D202DE-09F4-4A39-BB2C-9BDEBF07CEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D202DE-09F4-4A39-BB2C-9BDEBF07CEAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{C4A5DE99-A081-4EF4-AE69-2D897E45EF0B} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
 		{F5E67B17-7A35-4D47-8375-20ECDB9F332C} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
 		{128EDA3E-BF4C-45F1-90F0-D363D7B81803} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
+		{64D202DE-09F4-4A39-BB2C-9BDEBF07CEAA} = {72180AF2-9E44-44EC-846B-1E7B6952FA41}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}
