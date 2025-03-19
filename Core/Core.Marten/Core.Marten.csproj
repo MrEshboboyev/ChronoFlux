@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="$(MSBuildProjectDirectory)/../../Core.Build.props" />
+
+	<ItemGroup>
+	  <PackageReference Include="Marten" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration.Binder" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Core\Core.csproj" />
+	</ItemGroup>
+</Project>
