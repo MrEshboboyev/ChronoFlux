@@ -56,6 +56,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{F84B4D
 		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClosingTheBooks", "ClosingTheBooks", "{F510E8A0-CF29-4B8C-9A08-88159A4AE3CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSales", "Sample\ClosingTheBooks\PointOfSales\PointOfSales.csproj", "{B5EE4A5F-00EE-4E14-907C-55265C02137D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -130,6 +134,10 @@ Global
 		{24A73209-17F4-401B-9C89-59C0EDE3C571}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24A73209-17F4-401B-9C89-59C0EDE3C571}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24A73209-17F4-401B-9C89-59C0EDE3C571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5EE4A5F-00EE-4E14-907C-55265C02137D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EE4A5F-00EE-4E14-907C-55265C02137D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EE4A5F-00EE-4E14-907C-55265C02137D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EE4A5F-00EE-4E14-907C-55265C02137D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +161,8 @@ Global
 		{0BBF4F8A-ACFA-43CA-8686-9CB069E24A90} = {6D0C1632-D544-46DD-949C-106BF9890B1C}
 		{917EFFE3-5A3A-4F3E-B9A9-C741D800DF97} = {0BBF4F8A-ACFA-43CA-8686-9CB069E24A90}
 		{24A73209-17F4-401B-9C89-59C0EDE3C571} = {0BBF4F8A-ACFA-43CA-8686-9CB069E24A90}
+		{F510E8A0-CF29-4B8C-9A08-88159A4AE3CB} = {6D0C1632-D544-46DD-949C-106BF9890B1C}
+		{B5EE4A5F-00EE-4E14-907C-55265C02137D} = {F510E8A0-CF29-4B8C-9A08-88159A4AE3CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}
