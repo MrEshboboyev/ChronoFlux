@@ -31,6 +31,7 @@
     <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="9.1.0" />
     <PackageVersion Include="Microsoft.Extensions.TimeProvider.Testing" Version="9.3.0" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.0-preview-25107-01" />
+    <PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.2" />
     <PackageVersion Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.14.2-alpha" />
     <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageVersion Include="Npgsql" Version="9.0.3" />
