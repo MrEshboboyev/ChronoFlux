@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\Core.WebApi\Core.WebApi.csproj" />
+    <ProjectReference Include="..\SmartHome.Temperature\SmartHome.Temperature.csproj" />
+  </ItemGroup>
+</Project>
