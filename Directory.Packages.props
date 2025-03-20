@@ -8,6 +8,7 @@
     <PackageVersion Include="Aspire.Hosting" Version="9.1.0" />
     <PackageVersion Include="Bogus" Version="35.6.2" />
     <PackageVersion Include="Confluent.Kafka" Version="2.8.0" />
+    <PackageVersion Include="coverlet.collector" Version="6.0.4" />
     <PackageVersion Include="Elastic.Clients.Elasticsearch" Version="8.17.3" />
     <PackageVersion Include="EventStore.Client.Grpc.Streams" Version="23.3.8" />
     <PackageVersion Include="FluentAssertions" Version="7.2.0" />
