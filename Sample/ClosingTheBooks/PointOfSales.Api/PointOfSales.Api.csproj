@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+	
+  <ItemGroup>
+    <PackageReference Include="Marten" />
+    <PackageReference Include="Marten.AspNetCore" />
+    <PackageReference Include="Marten.CommandLine" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\PointOfSales\PointOfSales.csproj" />
+  </ItemGroup>
+
+</Project>
