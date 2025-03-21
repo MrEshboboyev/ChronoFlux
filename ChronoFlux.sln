@@ -78,6 +78,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventPipelines.MediatR", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventPipelines.Tests", "Sample\EventPipelines\EventPipelines.Tests\EventPipelines.Tests.csproj", "{B18EB698-FE5E-4D64-9442-FA3ADE0A0518}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HotelManagement", "HotelManagement", "{D12AE235-F96E-429F-80B8-1E34ED832310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagement", "Sample\HotelManagement\HotelManagement\HotelManagement.csproj", "{02754851-3D79-4421-8C4B-EE78C44CB843}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -184,6 +188,10 @@ Global
 		{B18EB698-FE5E-4D64-9442-FA3ADE0A0518}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B18EB698-FE5E-4D64-9442-FA3ADE0A0518}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B18EB698-FE5E-4D64-9442-FA3ADE0A0518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02754851-3D79-4421-8C4B-EE78C44CB843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02754851-3D79-4421-8C4B-EE78C44CB843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02754851-3D79-4421-8C4B-EE78C44CB843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02754851-3D79-4421-8C4B-EE78C44CB843}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -218,6 +226,8 @@ Global
 		{36FA6640-C153-42DE-9CF6-1C698EA13E4A} = {100A3BC2-6646-4818-BF43-6C86BE4AB5CF}
 		{AEF8361F-0006-47CD-89CA-31344BEC9169} = {100A3BC2-6646-4818-BF43-6C86BE4AB5CF}
 		{B18EB698-FE5E-4D64-9442-FA3ADE0A0518} = {100A3BC2-6646-4818-BF43-6C86BE4AB5CF}
+		{D12AE235-F96E-429F-80B8-1E34ED832310} = {6D0C1632-D544-46DD-949C-106BF9890B1C}
+		{02754851-3D79-4421-8C4B-EE78C44CB843} = {D12AE235-F96E-429F-80B8-1E34ED832310}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}
