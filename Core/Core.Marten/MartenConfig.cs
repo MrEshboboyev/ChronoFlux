@@ -3,6 +3,7 @@ using Core.Ids;
 using Core.Marten.Commands;
 using Core.Marten.Ids;
 using Core.Marten.Subscriptions;
+using JasperFx;
 using Marten;
 using Marten.Events.Daemon.Resiliency;
 using Marten.Services;

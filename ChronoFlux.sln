@@ -84,6 +84,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagement", "Sample\H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservations", "Sample\HotelManagement\Reservations\Reservations.csproj", "{90A47340-F365-43E0-B365-367DFDE9C5A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagement.Tests", "Sample\HotelManagement\HotelManagement.Tests\HotelManagement.Tests.csproj", "{378CB534-C445-40CD-AF30-6C1964786D63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -198,6 +200,10 @@ Global
 		{90A47340-F365-43E0-B365-367DFDE9C5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90A47340-F365-43E0-B365-367DFDE9C5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90A47340-F365-43E0-B365-367DFDE9C5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378CB534-C445-40CD-AF30-6C1964786D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378CB534-C445-40CD-AF30-6C1964786D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378CB534-C445-40CD-AF30-6C1964786D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378CB534-C445-40CD-AF30-6C1964786D63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -235,6 +241,7 @@ Global
 		{D12AE235-F96E-429F-80B8-1E34ED832310} = {6D0C1632-D544-46DD-949C-106BF9890B1C}
 		{02754851-3D79-4421-8C4B-EE78C44CB843} = {D12AE235-F96E-429F-80B8-1E34ED832310}
 		{90A47340-F365-43E0-B365-367DFDE9C5A1} = {D12AE235-F96E-429F-80B8-1E34ED832310}
+		{378CB534-C445-40CD-AF30-6C1964786D63} = {D12AE235-F96E-429F-80B8-1E34ED832310}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}
