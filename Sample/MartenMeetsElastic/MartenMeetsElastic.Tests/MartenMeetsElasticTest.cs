@@ -19,7 +19,7 @@ public abstract class MartenMeetsElasticTest: IDisposable
 
         var options = new StoreOptions();
         options.Connection(
-            "PORT = 5432; HOST = localhost; TIMEOUT = 15; POOLING = True; DATABASE = 'postgres'; PASSWORD = 'Password12!'; USER ID = 'postgres'");
+            "PORT = 5432; HOST = localhost; TIMEOUT = 15; POOLING = True; DATABASE = 'postgres'; PASSWORD = 'postgres'; USER ID = 'postgres'");
         options.UseNewtonsoftForSerialization(nonPublicMembersStorage: NonPublicMembersStorage.All);
         options.DatabaseSchemaName = options.Events.DatabaseSchemaName = "MartenMeetsElastic";
         options.Events.StreamIdentity = StreamIdentity.AsString;
