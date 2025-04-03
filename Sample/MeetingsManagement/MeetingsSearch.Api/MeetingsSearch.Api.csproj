@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <PackageReference Include="OpenTelemetry.Exporter.Jaeger" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\Core.Kafka\Core.Kafka.csproj" />
+    <ProjectReference Include="..\..\..\Core\Core.WebApi\Core.WebApi.csproj" />
+    <ProjectReference Include="..\MeetingsSearch\MeetingsSearch.csproj" />
+  </ItemGroup>
+
+</Project>
