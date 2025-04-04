@@ -130,6 +130,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse.Api", "Sample\War
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse.Api.Tests", "Sample\Warehouse\Warehouse.Api.Tests\Warehouse.Api.Tests.csproj", "{8FB884C0-8C50-4519-89BA-CA39BD2CB15B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Warehouse.MinimalAPI", "Warehouse.MinimalAPI", "{3E80C4C4-E33F-49E5-A902-13BAFDC8E967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse.Api", "Sample\Warehouse.MinimalAPI\Warehouse.Api\Warehouse.Api.csproj", "{5B664A49-34C5-4689-A35E-AC4670E64080}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -308,6 +312,10 @@ Global
 		{8FB884C0-8C50-4519-89BA-CA39BD2CB15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FB884C0-8C50-4519-89BA-CA39BD2CB15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FB884C0-8C50-4519-89BA-CA39BD2CB15B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B664A49-34C5-4689-A35E-AC4670E64080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B664A49-34C5-4689-A35E-AC4670E64080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B664A49-34C5-4689-A35E-AC4670E64080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B664A49-34C5-4689-A35E-AC4670E64080}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -368,6 +376,8 @@ Global
 		{0E410D64-04CE-483C-BEBE-B415CD81428D} = {4918E5FC-F89D-4CE0-B3A4-921FECFD536B}
 		{D103D8F3-A8DF-4F0C-B247-9CE21E3A6A4D} = {4918E5FC-F89D-4CE0-B3A4-921FECFD536B}
 		{8FB884C0-8C50-4519-89BA-CA39BD2CB15B} = {4918E5FC-F89D-4CE0-B3A4-921FECFD536B}
+		{3E80C4C4-E33F-49E5-A902-13BAFDC8E967} = {6D0C1632-D544-46DD-949C-106BF9890B1C}
+		{5B664A49-34C5-4689-A35E-AC4670E64080} = {3E80C4C4-E33F-49E5-A902-13BAFDC8E967}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}
