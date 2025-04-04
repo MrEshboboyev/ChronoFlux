@@ -112,6 +112,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingsSearch", "Sample\Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingsSearch.Api", "Sample\MeetingsManagement\MeetingsSearch.Api\MeetingsSearch.Api.csproj", "{008D711A-0E67-4D22-8684-6C8CDBABD831}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingsManagement.IntegrationTests", "Sample\MeetingsManagement\MeetingsManagement.IntegrationTests\MeetingsManagement.IntegrationTests.csproj", "{55A3282F-FA88-484C-8FB7-AD3F8E70C6A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingsSearch.IntegrationTests", "Sample\MeetingsManagement\MeetingsSearch.IntegrationTests\MeetingsSearch.IntegrationTests.csproj", "{6FD1D0E3-3981-458E-AED4-FE6A5D272DAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -262,6 +266,14 @@ Global
 		{008D711A-0E67-4D22-8684-6C8CDBABD831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{008D711A-0E67-4D22-8684-6C8CDBABD831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{008D711A-0E67-4D22-8684-6C8CDBABD831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A3282F-FA88-484C-8FB7-AD3F8E70C6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A3282F-FA88-484C-8FB7-AD3F8E70C6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A3282F-FA88-484C-8FB7-AD3F8E70C6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A3282F-FA88-484C-8FB7-AD3F8E70C6A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD1D0E3-3981-458E-AED4-FE6A5D272DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD1D0E3-3981-458E-AED4-FE6A5D272DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD1D0E3-3981-458E-AED4-FE6A5D272DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD1D0E3-3981-458E-AED4-FE6A5D272DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -313,6 +325,8 @@ Global
 		{50ED23DD-CC2F-45A3-A77A-B6DEB1622D95} = {36881197-111F-41BA-AB76-DD628E2165A1}
 		{ACB0582F-FCEF-496E-A90A-E54B6E880BEE} = {36881197-111F-41BA-AB76-DD628E2165A1}
 		{008D711A-0E67-4D22-8684-6C8CDBABD831} = {36881197-111F-41BA-AB76-DD628E2165A1}
+		{55A3282F-FA88-484C-8FB7-AD3F8E70C6A2} = {36881197-111F-41BA-AB76-DD628E2165A1}
+		{6FD1D0E3-3981-458E-AED4-FE6A5D272DAE} = {36881197-111F-41BA-AB76-DD628E2165A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}
