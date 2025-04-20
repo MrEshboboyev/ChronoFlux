@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+
+	<ItemGroup>
+		<PackageReference Include="JasperFx.Core" />
+		<PackageReference Include="OpenTelemetry.Api" />
+		<PackageReference Include="Swashbuckle.AspNetCore" />
+		<PackageReference Include="Marten.AspNetCore" />
+		<PackageReference Include="Marten" />
+		<PackageReference Include="Confluent.Kafka" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" />
+		<PackageReference Include="WolverineFx.Http" />
+		<PackageReference Include="WolverineFx.Marten" />
+		<!--<PackageReference Include="Microsoft.AspNetCore.SignalR"/>-->
+	</ItemGroup>
+
+</Project>
