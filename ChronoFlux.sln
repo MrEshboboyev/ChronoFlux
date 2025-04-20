@@ -189,6 +189,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tickets.Api", "Sample\Ticke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tickets.Api.Tests", "Sample\Tickets\Tickets.Api.Tests\Tickets.Api.Tests.csproj", "{53E8B1C9-523E-45B5-9A0D-5FB7F044FF0C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2925F86B-E769-4193-9F89-A59992764B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marten.Integration.Tests", "Tests\Marten.Integration.Tests\Marten.Integration.Tests.csproj", "{7822FCC8-E1A8-4D84-A034-B7B6717DEAFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -439,6 +443,10 @@ Global
 		{53E8B1C9-523E-45B5-9A0D-5FB7F044FF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53E8B1C9-523E-45B5-9A0D-5FB7F044FF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53E8B1C9-523E-45B5-9A0D-5FB7F044FF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7822FCC8-E1A8-4D84-A034-B7B6717DEAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7822FCC8-E1A8-4D84-A034-B7B6717DEAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7822FCC8-E1A8-4D84-A034-B7B6717DEAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7822FCC8-E1A8-4D84-A034-B7B6717DEAFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -527,6 +535,7 @@ Global
 		{C0DF17B9-E12C-487A-A2F3-D79DA90BE567} = {8EF07D22-4B87-43EA-801F-44CD921AEC6A}
 		{9B64B7DA-CB09-4FF5-83B2-54C64ABFB485} = {8EF07D22-4B87-43EA-801F-44CD921AEC6A}
 		{53E8B1C9-523E-45B5-9A0D-5FB7F044FF0C} = {8EF07D22-4B87-43EA-801F-44CD921AEC6A}
+		{7822FCC8-E1A8-4D84-A034-B7B6717DEAFA} = {2925F86B-E769-4193-9F89-A59992764B48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}

@@ -38,7 +38,7 @@
     <PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="10.0.0-preview.3.25171.5" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.0-preview.3.25171.5" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0-preview.2.25163.2" />
-    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="10.0.0-preview.1.25080.5" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="10.0.0-preview.3.25171.5" />
     <PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.0-preview.1.25080.5" />
     <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.4.0" />
     <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0-preview.1.25080.5" />
