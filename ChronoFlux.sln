@@ -257,6 +257,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-CreateStreamsTable", "Wo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Workshops\BuildYourOwnEventStore\Tools\Tools.csproj", "{4A7FBC1C-7D7F-4219-84F5-9209D8CB3A81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-CreateEventsTable", "Workshops\BuildYourOwnEventStore\02-CreateEventsTable\02-CreateEventsTable.csproj", "{BDC604F5-AF29-420E-8B3B-81447B7B9F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-CreateAppendEventFunction", "Workshops\BuildYourOwnEventStore\03-CreateAppendEventFunction\03-CreateAppendEventFunction.csproj", "{CF8E4900-665D-4CED-84B4-AC44ECC1C24B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -587,6 +591,14 @@ Global
 		{4A7FBC1C-7D7F-4219-84F5-9209D8CB3A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A7FBC1C-7D7F-4219-84F5-9209D8CB3A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A7FBC1C-7D7F-4219-84F5-9209D8CB3A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC604F5-AF29-420E-8B3B-81447B7B9F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC604F5-AF29-420E-8B3B-81447B7B9F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC604F5-AF29-420E-8B3B-81447B7B9F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC604F5-AF29-420E-8B3B-81447B7B9F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8E4900-665D-4CED-84B4-AC44ECC1C24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8E4900-665D-4CED-84B4-AC44ECC1C24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8E4900-665D-4CED-84B4-AC44ECC1C24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8E4900-665D-4CED-84B4-AC44ECC1C24B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -707,6 +719,8 @@ Global
 		{01F82FD0-E96C-4961-9A97-68D85FEC2BD3} = {27C948BE-064E-41E3-B3F1-21132F3E6BEE}
 		{6D39BE2B-291A-43B8-AB7B-CA23B9E4CAFC} = {4D58A182-C3C8-428C-A196-82F31A528887}
 		{4A7FBC1C-7D7F-4219-84F5-9209D8CB3A81} = {4D58A182-C3C8-428C-A196-82F31A528887}
+		{BDC604F5-AF29-420E-8B3B-81447B7B9F3B} = {4D58A182-C3C8-428C-A196-82F31A528887}
+		{CF8E4900-665D-4CED-84B4-AC44ECC1C24B} = {4D58A182-C3C8-428C-A196-82F31A528887}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}
