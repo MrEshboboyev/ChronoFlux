@@ -12,6 +12,8 @@
     <PackageVersion Include="Bogus" Version="35.6.3" />
     <PackageVersion Include="Confluent.Kafka" Version="2.10.0" />
     <PackageVersion Include="coverlet.collector" Version="6.0.4" />
+    <PackageVersion Include="Dapper" Version="2.1.66" />
+    <PackageVersion Include="Dapper.Contrib" Version="2.0.78" />
     <PackageVersion Include="Elastic.Clients.Elasticsearch" Version="9.0.0" />
     <PackageVersion Include="EventStore.Client.Grpc.Streams" Version="23.3.8" />
     <PackageVersion Include="FluentAssertions" Version="8.2.0" />
@@ -74,6 +76,7 @@
     <PackageVersion Include="Quartz.OpenTelemetry.Instrumentation" Version="3.14.0" />
     <PackageVersion Include="Quartz.Serialization.Json" Version="3.14.0" />
     <PackageVersion Include="Scrutor" Version="6.0.1" />
+    <PackageVersion Include="Simple.Migrations" Version="0.9.21" />
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="8.1.1" />
     <PackageVersion Include="Swashbuckle.AspNetCore.Annotations" Version="8.1.1" />
     <PackageVersion Include="System.Linq.Async" Version="6.0.1" ExcludeAssets="All" />

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<PackageReference Include="Dapper" />
+		<PackageReference Include="Dapper.Contrib" />
+		<PackageReference Include="Marten" />
+		<PackageReference Include="Newtonsoft.Json" />
+		<PackageReference Include="OpenTelemetry.Api" />
+		<PackageReference Include="Simple.Migrations" />
+	</ItemGroup>
+
+</Project>
