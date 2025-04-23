@@ -265,6 +265,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-OptimisticConcurrency", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-EventStoreMethods", "Workshops\BuildYourOwnEventStore\04-EventStoreMethods\04-EventStoreMethods.csproj", "{6CEA6D13-5382-4BD0-927B-A24B4EC15198}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-StreamAggregation", "Workshops\BuildYourOwnEventStore\05-StreamAggregation\05-StreamAggregation.csproj", "{487C30D4-7C57-47D3-9BD1-D72A3FC650D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-TimeTraveling", "Workshops\BuildYourOwnEventStore\06-TimeTraveling\06-TimeTraveling.csproj", "{B318D097-AF75-4402-AAED-9236A3C2C833}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -611,6 +615,14 @@ Global
 		{6CEA6D13-5382-4BD0-927B-A24B4EC15198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CEA6D13-5382-4BD0-927B-A24B4EC15198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CEA6D13-5382-4BD0-927B-A24B4EC15198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487C30D4-7C57-47D3-9BD1-D72A3FC650D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487C30D4-7C57-47D3-9BD1-D72A3FC650D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487C30D4-7C57-47D3-9BD1-D72A3FC650D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487C30D4-7C57-47D3-9BD1-D72A3FC650D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B318D097-AF75-4402-AAED-9236A3C2C833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B318D097-AF75-4402-AAED-9236A3C2C833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B318D097-AF75-4402-AAED-9236A3C2C833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B318D097-AF75-4402-AAED-9236A3C2C833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -735,6 +747,8 @@ Global
 		{CF8E4900-665D-4CED-84B4-AC44ECC1C24B} = {4D58A182-C3C8-428C-A196-82F31A528887}
 		{24ABB421-0165-4656-AEFF-640A6959281C} = {4D58A182-C3C8-428C-A196-82F31A528887}
 		{6CEA6D13-5382-4BD0-927B-A24B4EC15198} = {4D58A182-C3C8-428C-A196-82F31A528887}
+		{487C30D4-7C57-47D3-9BD1-D72A3FC650D1} = {4D58A182-C3C8-428C-A196-82F31A528887}
+		{B318D097-AF75-4402-AAED-9236A3C2C833} = {4D58A182-C3C8-428C-A196-82F31A528887}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}
