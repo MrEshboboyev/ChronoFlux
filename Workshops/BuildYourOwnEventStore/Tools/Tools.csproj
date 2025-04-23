@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<PackageReference Include="Dapper"/>
+		<PackageReference Include="Dapper.Contrib"/>
+		<PackageReference Include="Marten"/>
+		<PackageReference Include="Newtonsoft.Json"/>
+		<PackageReference Include="Simple.Migrations"/>
+		<PackageReference Include="GitHubActionsTestLogger">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="xunit"/>
+		<PackageReference Include="OpenTelemetry.Api" />
+	</ItemGroup>
+
+</Project>
