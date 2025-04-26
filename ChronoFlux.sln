@@ -277,6 +277,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-Projections", "Workshops
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-ProjectionsWithMarten", "Workshops\BuildYourOwnEventStore\10-ProjectionsWithMarten\10-ProjectionsWithMarten.csproj", "{ACC53B4C-05C8-4F32-97EE-1C85D1823A89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStoreBasics.Tests", "Workshops\BuildYourOwnEventStore\Solved\EventStoreBasics.Tests\EventStoreBasics.Tests.csproj", "{4DB8E415-D7C2-485B-A7BB-C007C9537DA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -647,6 +649,10 @@ Global
 		{ACC53B4C-05C8-4F32-97EE-1C85D1823A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACC53B4C-05C8-4F32-97EE-1C85D1823A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACC53B4C-05C8-4F32-97EE-1C85D1823A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB8E415-D7C2-485B-A7BB-C007C9537DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB8E415-D7C2-485B-A7BB-C007C9537DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB8E415-D7C2-485B-A7BB-C007C9537DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB8E415-D7C2-485B-A7BB-C007C9537DA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -777,6 +783,7 @@ Global
 		{391D1D02-452D-477F-9D62-13A7220EE152} = {4D58A182-C3C8-428C-A196-82F31A528887}
 		{51E910D6-AE63-440C-87D2-08CE4B78B316} = {4D58A182-C3C8-428C-A196-82F31A528887}
 		{ACC53B4C-05C8-4F32-97EE-1C85D1823A89} = {4D58A182-C3C8-428C-A196-82F31A528887}
+		{4DB8E415-D7C2-485B-A7BB-C007C9537DA1} = {27C948BE-064E-41E3-B3F1-21132F3E6BEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}
