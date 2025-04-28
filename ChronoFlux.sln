@@ -295,6 +295,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-GettingStateFromEvents.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-BusinessLogic", "Workshops\IntroductionToEventSourcing\07-BusinessLogic\07-BusinessLogic.csproj", "{53C1ACC4-C9A8-4E1C-8B74-33B8B5B2BC71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-BusinessLogic.Slimmed", "Workshops\IntroductionToEventSourcing\07-BusinessLogic.Slimmed\07-BusinessLogic.Slimmed.csproj", "{DAAB0A31-7A76-4DEB-B0E3-128DFB5E17D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -697,6 +699,10 @@ Global
 		{53C1ACC4-C9A8-4E1C-8B74-33B8B5B2BC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53C1ACC4-C9A8-4E1C-8B74-33B8B5B2BC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53C1ACC4-C9A8-4E1C-8B74-33B8B5B2BC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAB0A31-7A76-4DEB-B0E3-128DFB5E17D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAB0A31-7A76-4DEB-B0E3-128DFB5E17D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAB0A31-7A76-4DEB-B0E3-128DFB5E17D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAB0A31-7A76-4DEB-B0E3-128DFB5E17D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -836,6 +842,7 @@ Global
 		{9280E68D-44DB-494B-98E2-2680EC99920B} = {2E97DE97-7046-4217-9F0F-6DE7C93283CD}
 		{32056848-728E-4E75-B11B-4F8603AE44DF} = {2E97DE97-7046-4217-9F0F-6DE7C93283CD}
 		{53C1ACC4-C9A8-4E1C-8B74-33B8B5B2BC71} = {2E97DE97-7046-4217-9F0F-6DE7C93283CD}
+		{DAAB0A31-7A76-4DEB-B0E3-128DFB5E17D6} = {2E97DE97-7046-4217-9F0F-6DE7C93283CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}
