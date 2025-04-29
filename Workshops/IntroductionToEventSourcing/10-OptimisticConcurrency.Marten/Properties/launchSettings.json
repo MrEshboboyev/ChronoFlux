@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "10-OptimisticConcurrency.Marten": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58849;http://localhost:58850"
+    }
+  }
+}
