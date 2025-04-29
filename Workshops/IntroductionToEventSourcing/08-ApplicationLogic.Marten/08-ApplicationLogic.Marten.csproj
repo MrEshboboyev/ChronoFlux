@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<RootNamespace>ApplicationLogic.Marten</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Marten.CommandLine"/>
+		<PackageReference Include="Swashbuckle.AspNetCore"/>
+		<PackageReference Include="Marten.AspNetCore"/>
+		<PackageReference Include="OpenTelemetry.Api" />
+		<PackageReference Include="Marten"/>
+	</ItemGroup>
+
+</Project>
