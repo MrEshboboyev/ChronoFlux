@@ -305,6 +305,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-OptimisticConcurrency.Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-OptimisticConcurrency.Marten.Tests", "Workshops\IntroductionToEventSourcing\10-OptimisticConcurrency.Marten.Tests\10-OptimisticConcurrency.Marten.Tests.csproj", "{4D39F51E-62F5-4A47-AA28-A8A1DB15CA18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-OptimisticConcurrency.EventStoreDB", "Workshops\IntroductionToEventSourcing\11-OptimisticConcurrency.EventStoreDB\11-OptimisticConcurrency.EventStoreDB.csproj", "{8870AC5D-D0BB-461D-54AF-83B4CBBE6F48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -727,6 +729,10 @@ Global
 		{4D39F51E-62F5-4A47-AA28-A8A1DB15CA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D39F51E-62F5-4A47-AA28-A8A1DB15CA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D39F51E-62F5-4A47-AA28-A8A1DB15CA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8870AC5D-D0BB-461D-54AF-83B4CBBE6F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8870AC5D-D0BB-461D-54AF-83B4CBBE6F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8870AC5D-D0BB-461D-54AF-83B4CBBE6F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8870AC5D-D0BB-461D-54AF-83B4CBBE6F48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -871,6 +877,7 @@ Global
 		{31A63176-B16F-425C-8518-C738CAF1D3CF} = {2E97DE97-7046-4217-9F0F-6DE7C93283CD}
 		{82E5CC1F-1DCB-4577-A39D-9407C1411213} = {2E97DE97-7046-4217-9F0F-6DE7C93283CD}
 		{4D39F51E-62F5-4A47-AA28-A8A1DB15CA18} = {2E97DE97-7046-4217-9F0F-6DE7C93283CD}
+		{8870AC5D-D0BB-461D-54AF-83B4CBBE6F48} = {2E97DE97-7046-4217-9F0F-6DE7C93283CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52157EB6-23D3-43A8-BEB7-65BCF0DB17A2}
